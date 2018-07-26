@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\BoomBox.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Jesse Pinkston/Desktop/ITCS-4231/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
