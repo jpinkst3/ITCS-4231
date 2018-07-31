@@ -16,10 +16,10 @@ public class Countdown : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-		if(time > 0)
+        if (time > 0)
         {
             time -= Time.deltaTime;
             fillImg.fillAmount = time / timeAmt;
         }
-	}
+    }
 }
