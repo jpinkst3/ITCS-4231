@@ -12,9 +12,14 @@ public class Countdown : MonoBehaviour {
         fillImg = this.GetComponent<Image>();
         time = timeAmt;
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    public void Reset()
+    {
+        time = timeAmt;
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
         if (time > 0)
         {
